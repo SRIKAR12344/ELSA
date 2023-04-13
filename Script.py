@@ -21,25 +21,25 @@ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴩ Nᴏᴡ 👇</b>"""
     
     PONG_TXT = """Cʜᴇᴄᴋ Mʏ Pɪɴɢ Bʏ Cʟɪᴄᴋɪɴɢ 👉 /ping"""
 
-    ABOUT_TXT = """<b>🤖 ᴍʏ ɴᴀᴍᴇ : <a href=https://t.me/Tamilanz_Auto_Filter_Bot>ᴍᴏᴠɪᴇs ғɪʟᴛᴇʀ ʙᴏᴛ</a>
-👨‍💻 ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href=https://t.me/Sharathitsisme>sʜᴀʀᴀᴛʜ</a>
-📝 ʟᴀɴɢᴜᴀɢᴇ : ᴘʏʀᴏɢʀᴀᴍ
-📚 ꜰʀᴀᴍᴇᴡᴏʀᴋ : ᴘʏᴛʜᴏɴ 3
-📡 ʜᴏsᴛᴇᴅ ᴏɴ : ғʀᴇᴇ ʜᴏsᴛɪɴɢ
-📢 sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ : <a href=https://t.me/TamilanMoviesChat>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>
-🌟 Sᴏᴜʀᴄᴇ Cᴏᴅᴇ : <a href=https://github.com/TamilanBotsZ/PremiumFilter>ʀᴇᴩᴏ ʟɪɴᴋ</a></b>"""
+    ABOUT_TXT = """<b>🤖 ᴍʏ ɴᴀᴍᴇ : <a href=https://t.me/ELSA_AUTO_FILTER_BOT>𝗘𝗟𝗦𝗔</a>
+👨‍💻 𝗗𝗘𝗩𝗘𝗟𝗢𝗣𝗘𝗥 : <a href=https://t.me/BOSS_ADMIN_INDIA_BOT>𝗦𝗜𝗥𝗜𝗦𝗛</a>
+📝 𝗟𝗔𝗡𝗚𝗨𝗔𝗚𝗘 : 𝗣𝗥𝗢𝗚𝗥𝗔𝗠
+📚 𝗙𝗥𝗔𝗠𝗘𝗪𝗢𝗥𝗞 : 𝗣𝗬𝗧𝗛𝗢𝗡 3
+📡 𝗛𝗢𝗦𝗧𝗘𝗗 𝗢𝗡 : 𝗣𝗥𝗜𝗩𝗔𝗧𝗘 𝗩𝗣𝗦
+📢 𝗥𝗘𝗤𝗨𝗘𝗦𝗧 𝗚𝗥𝗢𝗨𝗣 : <a href=https://t.me/MOVIESREQUESTGROUPINDIA>𝗖𝗟𝗜𝗖𝗞 𝗛𝗘𝗥𝗘</a>
+🌟 𝗠𝗔𝗜𝗡 𝗖𝗛𝗔𝗡𝗡𝗘𝗟 : <a href=https://t.me/BOSSHINDIOFFCIAL_DRAMAZ>𝗖𝗟𝗜𝗖𝗞 𝗛𝗘𝗥𝗘</a></b>"""
 
-    SOURCES_TXT = """Tʜɪs Is Aɴ Oᴩᴇɴ-Sᴏᴜʀᴄᴇ Pʀᴏᴊᴇᴄᴛ Bʏ @Tamilan_BotsZ
+    SOURCES_TXT = """ 𝗧𝗛𝗘 𝗜𝗦 𝗔𝗡 𝗣𝗥𝗜𝗩𝗔𝗧𝗘 𝗣𝗥𝗢𝗝𝗘𝗖𝗧 𝗕𝗬 𝗦𝗜𝗥𝗜𝗦𝗛
 
-- 100﹪ Cᴏᴅᴇᴅ Bʏ <a href=https://t.me/SharathItsIsme>sʜᴀʀᴀᴛʜ</a>
+- 100﹪ 𝗖𝗢𝗗𝗘𝗗 𝗕𝗬  <a href=https://t.me/BOSS_ADMIN_INDIA_BOT>𝗦𝗜𝗥𝗜𝗦𝗛</a>
 
-- & Rᴇᴩᴏ Lɪɴᴋ 👇 Hᴇʀᴇ"""
+- 𝗠𝗔𝗜𝗡 𝗖𝗛𝗔𝗡𝗡𝗘𝗟 𝗟𝗜𝗡𝗞 👇 Hᴇʀᴇ"""
 
-    SOURCE_TXT = """Tʜɪs Is Aɴ Oᴩᴇɴ-Sᴏᴜʀᴄᴇ Pʀᴏᴊᴇᴄᴛ Bʏ @Tamilan_BotsZ</b>
+    SOURCE_TXT = """𝗧𝗛𝗜𝗦 𝗜𝗦 𝗔𝗡 𝗣𝗥𝗜𝗩𝗔𝗧𝗘 𝗣𝗥𝗢𝗝𝗘𝗖𝗧 𝗕𝗬 𝗦𝗜𝗥𝗜𝗦𝗛</b>
 
-- 100﹪ Cᴏᴅᴇᴅ Bʏ <a href=https://t.me/SharathItsIsme>sʜᴀʀᴀᴛʜ</a></b>
+- 100% 𝗖𝗢𝗗𝗘𝗗 𝗕𝗬  <a href=https://t.me/BOSS_ADMIN_INDIA_BOT>𝗦𝗜𝗥𝗜𝗦𝗛</a></b>
 
-- Rᴇᴩᴏ Lɪɴᴋ 👇 Hᴇʀᴇ"""
+- 𝗠𝗔𝗜𝗡 𝗖𝗛𝗔𝗡𝗡𝗘𝗟 𝗟𝗜𝗡𝗞 👇 Hᴇʀᴇ"""
 
     FONT_TXT = """I Cᴀɴ Gᴇɴᴇʀᴀᴛᴇ Aᴛᴛʀᴀᴄᴛɪᴠᴇ Fᴏɴᴛs Fᴏʀ Yᴏᴜʀ Tᴇxᴛ Sᴇɴᴅ Lɪᴋᴇ Tʜɪs 👇
 
