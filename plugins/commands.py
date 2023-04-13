@@ -96,7 +96,7 @@ async def start(client, message):
             InlineKeyboardButton('🔎 𝗥𝗘𝗤𝗨𝗘𝗦𝗧 𝗚𝗥𝗢𝗨𝗣 🔍', url='https://t.me/MOVIESREQUESTGROUPINDIA')
             ],[
             InlineKeyboardButton('😅 𝗠𝗔𝗜𝗡 𝗖𝗛𝗔𝗡𝗡𝗘𝗟 😊', url='https://t.me/BOSSHINDIOFFCIAL_DRAMAZ'),
-            InlineKeyboardButton('💌 𝗔𝗩𝗢𝗨𝗧 𝗔𝗡𝗗 𝗜𝗡𝗙𝗢 💌', callback_data= 'about')
+            InlineKeyboardButton('💌 𝗔𝗕𝗢𝗨𝗧 𝗔𝗡𝗗 𝗜𝗡𝗙𝗢 💌', callback_data= 'about')
             ],[
             InlineKeyboardButton('❌ 𝗖𝗟𝗢𝗦𝗘 ❌', callback_data='close_data')
         ]]
