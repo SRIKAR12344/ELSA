@@ -456,17 +456,17 @@ async def cb_handler(client: Client, query: CallbackQuery):
          )
     elif query.data == "about":
         buttons = [[
-            InlineKeyboardButton('🤖 Uᴩᴅᴀᴛᴇs 😜', url='https://t.me/Tamilan_BotsZ'),
-            InlineKeyboardButton('♥️ Sʜᴀʀᴇ Mᴇ 💫', url=f"https://t.me/share/url?url=t.me/{temp.U_NAME}")
+            InlineKeyboardButton('🤖 𝗨𝗣𝗗𝗔𝗧𝗘𝗦 😜', url='https://t.me/BOSSHINDIOFFCIAL_DRAMAZ'),
+            InlineKeyboardButton('♥️ 𝗦𝗛𝗔𝗥𝗘 𝗠𝗘 💫', url=f"https://t.me/share/url?url=t.me/{temp.U_NAME}")
         ], [
-            InlineKeyboardButton('🔭 Sᴛᴀᴛs 📊', callback_data='stats'),
-            InlineKeyboardButton('📞 Cᴏɴᴛᴀᴄᴛ 📟', callback_data='contact')
+            InlineKeyboardButton('🔭 𝗦𝗧𝗔𝗧𝗦 📊', callback_data='stats'),
+            InlineKeyboardButton('📞 𝗖𝗢𝗡𝗧𝗔𝗖𝗧 📟', callback_data='contact')
         ], [
-            InlineKeyboardButton('😜 Hᴏᴡ Tᴏ Dᴏᴡɴʟᴏᴀᴅ 😜', callback_data='info'),
-            InlineKeyboardButton('👋 Exᴛʀᴀ Fᴇᴀᴛᴜʀᴇs 👋', callback_data='mods')
+            InlineKeyboardButton('😜 𝗛𝗢𝗪 𝗧𝗢 𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗 😜', callback_data='info'),
+            InlineKeyboardButton('👋 𝗘𝗫𝗧𝗥𝗔 𝗙𝗘𝗔𝗧𝗨𝗥𝗘𝗦 👋', callback_data='mods')
         ], [
-            InlineKeyboardButton('📦 Cʜᴇᴄᴋ Pɪɴɢ 📡', callback_data='pongd'),
-            InlineKeyboardButton('‹‹‹ Bᴀᴄᴋ', callback_data='start')
+            InlineKeyboardButton('📦 𝗖𝗛𝗘𝗖𝗞 𝗣𝗜𝗡𝗚 📡', callback_data='pongd'),
+            InlineKeyboardButton('‹‹‹ 𝗕𝗔𝗖𝗞, callback_data='start')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -476,18 +476,18 @@ async def cb_handler(client: Client, query: CallbackQuery):
        )
     elif query.data == "mods":
         buttons = [[
-            InlineKeyboardButton('🖼️ Tᴇʟᴇɢʀᴀᴘʜ 🔭', callback_data='tele')
+            InlineKeyboardButton('🖼️ 𝗧𝗘𝗟𝗘𝗚𝗥𝗔𝗣𝗛 🔭', callback_data='tele')
         ],[
-            InlineKeyboardButton('🗿 Cʜᴇᴄᴋ Pɪɴɢ ✏️', callback_data='pong'),
-            InlineKeyboardButton('🤙 Sʜᴀʀᴇ Tᴇxᴛ 🤙', callback_data='share')
+            InlineKeyboardButton('🗿 𝗖𝗛𝗘𝗖𝗞 𝗣𝗜𝗡𝗚 ✏️', callback_data='pong'),
+            InlineKeyboardButton('🤙 𝗦𝗛𝗔𝗥𝗘 𝗧𝗘𝗫𝗧🤙', callback_data='share')
         ],[
-            InlineKeyboardButton('🧑‍💻 Cᴀʀʙᴏɴ Gᴇɴᴇʀᴀᴛᴏʀ ✴️', callback_data='carbon'),
-            InlineKeyboardButton('🙌 Fᴏɴᴛ Gᴇɴᴇʀᴀᴛᴏʀ 📝', callback_data='font')
+            InlineKeyboardButton('🧑‍💻 𝗖𝗔𝗥𝗕𝗢𝗡 𝗚𝗘𝗡𝗘𝗥𝗔𝗧𝗢𝗥 ✴️', callback_data='carbon'),
+            InlineKeyboardButton('🙌 𝗙𝗥𝗢𝗡𝗧 𝗚𝗘𝗡𝗘𝗥𝗔𝗧𝗢𝗥 📝', callback_data='font')
         ],[  
-            InlineKeyboardButton("▶️ Yᴛ Vɪᴅᴇᴏ Dᴏᴡɴʟᴀᴅᴇʀ 🎦", callback_data='video'),
-            InlineKeyboardButton('🔭 Sᴛᴀᴛs 📊', callback_data='stats')
+            InlineKeyboardButton("▶️ 𝗬𝗧 𝗩𝗜𝗗𝗘𝗢 𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗𝗘𝗥 🎦", callback_data='video'),
+            InlineKeyboardButton('🔭 𝗦𝗧𝗔𝗧𝗦 📊', callback_data='stats')
         ],[
-            InlineKeyboardButton('‹‹‹ Bᴀᴄᴋ', callback_data='about')
+            InlineKeyboardButton('‹‹‹ 𝗕𝗔𝗖𝗞, callback_data='about')
         ]]       
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
