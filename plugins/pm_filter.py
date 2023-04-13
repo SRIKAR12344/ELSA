@@ -466,7 +466,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('👋 𝗘𝗫𝗧𝗥𝗔 𝗙𝗘𝗔𝗧𝗨𝗥𝗘𝗦 👋', callback_data='mods')
         ], [
             InlineKeyboardButton('📦 𝗖𝗛𝗘𝗖𝗞 𝗣𝗜𝗡𝗚 📡', callback_data='pongd'),
-            InlineKeyboardButton('‹‹‹ 𝗕𝗔𝗖𝗞, callback_data='start')
+            InlineKeyboardButton('‹‹‹ 𝗕𝗔𝗖𝗞', callback_data='start')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -487,7 +487,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton("▶️ 𝗬𝗧 𝗩𝗜𝗗𝗘𝗢 𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗𝗘𝗥 🎦", callback_data='video'),
             InlineKeyboardButton('🔭 𝗦𝗧𝗔𝗧𝗦 📊', callback_data='stats')
         ],[
-            InlineKeyboardButton('‹‹‹ 𝗕𝗔𝗖𝗞, callback_data='about')
+            InlineKeyboardButton('‹‹‹ 𝗕𝗔𝗖𝗞', callback_data='about')
         ]]       
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
