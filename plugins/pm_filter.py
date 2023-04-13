@@ -73,7 +73,7 @@ async def next_page(bot, query):
         offset = 0
     search = BUTTONS.get(key)
     if not search:
-        await query.answer("You are using one of my old messages, please send the request again.", show_alert=True)
+        await query.answer("𝗬𝗢𝗨 𝗔𝗥𝗘 𝗖𝗛𝗘𝗖𝗞𝗜𝗡𝗚 𝗔 𝗢𝗟𝗗 𝗠𝗘𝗦𝗦𝗔𝗚𝗘 𝗣𝗛𝗜𝗥 𝗦𝗘 𝗣𝗨𝗖𝗛 𝗟𝗢 𝗛𝗢𝗝𝗔𝗚𝗔 𝗘𝗔𝗦𝗬 𝗛𝗔𝗜 𝗡𝗔𝗠𝗘 𝗦𝗘𝗡𝗗 𝗞𝗔𝗥𝗢.", show_alert=True)
         return
 
     files, n_offset, total = await get_search_results(search, offset=offset, filter=True)
@@ -148,7 +148,7 @@ async def next_page(bot, query):
 async def advantage_spoll_choker(bot, query):
     _, user, movie_ = query.data.split('#')
     if int(user) != 0 and query.from_user.id != int(user):
-        return await query.answer("𝗧𝗘𝗥𝗔 𝗢𝗣𝗘𝗡 𝗙𝗜𝗟𝗘𝗦 𝗟𝗘𝗟𝗢 𝗕𝗥𝗢 😂 𝗦𝗔𝗬 𝗧𝗛𝗘 𝗡𝗔𝗠𝗘 𝗜 𝗪𝗜𝗟𝗟 𝗚𝗜𝗩𝗘 𝗬𝗢𝗨", show_alert=True)
+        return await query.answer("𝗗𝗨𝗦𝗔𝗥𝗢 𝗞𝗘 𝗙𝗜𝗟𝗘𝗦 𝗡𝗘𝗛𝗜 𝗔𝗣𝗡𝗜 𝗙𝗜𝗟𝗘𝗦 𝗟𝗘𝗟𝗢 𝗕𝗥𝗢 😂 𝗦𝗔𝗬 𝗧𝗛𝗘 𝗡𝗔𝗠𝗘 𝗜 𝗪𝗜𝗟𝗟 𝗚𝗜𝗩𝗘 𝗬𝗢𝗨", show_alert=True)
     if movie_ == "close_spellcheck":
         return await query.message.delete()
     movies = SPELL_CHECK.get(query.message.reply_to_message.id)
@@ -406,7 +406,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             await query.answer(url=f"https://t.me/{temp.U_NAME}?start={ident}_{file_id}")
     elif query.data.startswith("checksub"):
         if AUTH_CHANNEL and not await is_subscribed(client, query):
-            await query.answer("Fɪʀsᴛ Jᴏɪɴ Tʜᴇ Cʜᴀɴɴᴇʟ Aɴᴅ Cʟɪᴄᴋ Tʜɪs 😒", show_alert=True)
+            await query.answer("𝗙𝗜𝗥𝗦𝗧 𝗝𝗢𝗜𝗡 𝗧𝗛𝗜𝗦 𝗕𝗥𝗨𝗛 😒", show_alert=True)
             return
         ident, file_id = query.data.split("#")
         files_ = await get_file_details(file_id)
@@ -438,7 +438,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
     elif query.data == "start":
         buttons = [[
-            InlineKeyboardButton('➕ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ➕', url=f"https://t.me/{temp.U_NAME}?startgroup=true")
+            InlineKeyboardButton('🔥 𝗔𝗗𝗗 𝗠𝗘 𝗧𝗢 𝗧𝗛𝗘 𝗚𝗥𝗢𝗨𝗣 🔥', url=f"https://t.me/{temp.U_NAME}?startgroup=true")
             ],[
             InlineKeyboardButton('💥 𝗨𝗣𝗗𝗔𝗧𝗘𝗦 𝗖𝗛𝗔𝗡𝗡𝗘𝗟 💥', url='https://t.me/BOSSHINDIOFFCIAL_DRAMAZ'),
             InlineKeyboardButton('🔎 𝗥𝗘𝗤𝗨𝗘𝗦𝗧 𝗚𝗥𝗢𝗨𝗣 🔍', url='https://t.me/MOVIESREQUESTGROUPINDIA')
@@ -593,9 +593,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "info":
         buttons = [[
-            InlineKeyboardButton('😪 Hᴏᴡ Tᴏ Oᴩᴇɴ Mʏ Lɪɴᴋs 💢', url='https://t.me/BOSSHINDIOFFCIAL_DRAMAZ/69')
+            InlineKeyboardButton('😪 𝗛𝗢𝗪 𝗧𝗢 𝗢𝗣𝗘𝗡 𝗠𝗬 𝗟𝗜𝗡𝗞𝗦 💢', url='https://t.me/BOSSHINDIOFFCIAL_DRAMAZ/69')
         ], [
-            InlineKeyboardButton('📞 Cᴏɴᴛᴀᴄᴛ 📟', callback_data='contact')
+            InlineKeyboardButton('📞 𝗖𝗢𝗡𝗧𝗔𝗖𝗧 📟', callback_data='contact')
         ], [
             InlineKeyboardButton('‹‹‹ Bᴀᴄᴋ', callback_data='about')
         ]]
@@ -607,11 +607,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "contact":
         buttons = [[
-            InlineKeyboardButton('😳 Cʀᴇᴀᴛᴏʀ 😳', url='https://t.me/BOSS_ADMIN_INDIA_BOT')
+            InlineKeyboardButton('😳 𝗗𝗘𝗩𝗘𝗟𝗢𝗣𝗘𝗥 😳', url='https://t.me/BOSS_ADMIN_INDIA_BOT')
         ], [     
-            InlineKeyboardButton('📞 Cᴏɴᴛᴀᴄᴛ 📟', url='https://t.me/BOSS_ADMIN_INDIA_BOT')
+            InlineKeyboardButton('📞 𝗖𝗢𝗡𝗧𝗔𝗖𝗧 📟', url='https://t.me/BOSS_ADMIN_INDIA_BOT')
         ], [  
-            InlineKeyboardButton('‹‹‹ Bᴀᴄᴋ', callback_data='about')
+            InlineKeyboardButton('‹‹‹ 𝗕𝗔𝗖𝗞', callback_data='about')
         ], [
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
