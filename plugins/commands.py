@@ -23,10 +23,10 @@ async def start(client, message):
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         buttons = [
             [
-                InlineKeyboardButton('🤖 Uᴘᴅᴀᴛᴇs 🤖', url='https://t.me/BOSSHINDIOFFCIAL_DRAMAZ')
+                InlineKeyboardButton('🤖 𝗨𝗣𝗗𝗔𝗧𝗘𝗦 🤖', url='https://t.me/BOSSHINDIOFFCIAL_DRAMAZ')
             ],
             [
-                InlineKeyboardButton('ℹ️ Hᴇʟᴘ ℹ️', url=f"https://t.me/{temp.U_NAME}?start=help")
+                InlineKeyboardButton('ℹ️ 𝗛𝗘𝗟𝗣 ℹ️', url=f"https://t.me/{temp.U_NAME}?start=help")
             ]
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -44,11 +44,10 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('➕ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ➕', url=f"https://t.me/{temp.U_NAME}?startgroup=true")
             ],[
-            InlineKeyboardButton('💥 Mᴏᴠɪᴇ Uᴘᴅᴀᴛᴇs 💥', url='https://t.me/+m3lsH6NZBlE1MWJl'),
-            InlineKeyboardButton('🔎 Sᴇᴀʀᴄʜ Gʀᴏᴜᴘ 🔍', url='https://t.me/TamilanMoviesChat')
+            InlineKeyboardButton('💥 𝗨𝗣𝗗𝗔𝗧𝗘𝗦 𝗖𝗛𝗔𝗡𝗡𝗘𝗟𝗦 💥', url='https://t.me/BOSSHINDIOFFCIAL_DRAMAZ'),
+            InlineKeyboardButton('🔎 𝗥𝗘𝗤𝗨𝗘𝗦𝗧 𝗚𝗥𝗢𝗨𝗣 🔍', url='https://t.me/MOVIESREQUESTGROUPINDIA')
             ],[
-            InlineKeyboardButton('😅 Sᴏᴜʀᴄᴇ Cᴏᴅᴇ 😊', callback_data='sources')
-            ],[
+            InlineKeyboardButton('😅 𝗠𝗔𝗜𝗡 𝗖𝗛𝗔𝗡𝗡𝗘𝗟 😊', url='https://t.me/BOSSHINDIOFFCIAL_DRAMAZ'),
             InlineKeyboardButton('💌 𝗔𝗕𝗢𝗨𝗧 𝗔𝗡𝗗 𝗜𝗡𝗙𝗢 💌', callback_data= 'about')
             ],[
             InlineKeyboardButton('❌ 𝗖𝗟𝗢𝗦𝗘 ❌', callback_data='close_data')
@@ -93,14 +92,13 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('➕ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ➕', url=f"https://t.me/{temp.U_NAME}?startgroup=true")
             ],[
-            InlineKeyboardButton('💥 Mᴏᴠɪᴇ Uᴘᴅᴀᴛᴇs 💥', url='https://t.me/+m3lsH6NZBlE1MWJl'),
-            InlineKeyboardButton('🔎 Sᴇᴀʀᴄʜ Gʀᴏᴜᴘ 🔍', url='https://t.me/TamilanMoviesChat')
+            InlineKeyboardButton('💥 𝗨𝗣𝗗𝗔𝗧𝗘𝗦 𝗖𝗛𝗔𝗡𝗡𝗘𝗟 💥', url='https://t.me/BOSSHINDIOFFCIAL_DRAMAZ'),
+            InlineKeyboardButton('🔎 𝗥𝗘𝗤𝗨𝗘𝗦𝗧 𝗚𝗥𝗢𝗨𝗣 🔍', url='https://t.me/MOVIESREQUESTGROUPINDIA')
             ],[
-            InlineKeyboardButton('😅 Sᴏᴜʀᴄᴇ Cᴏᴅᴇ 😊', callback_data='sources')
+            InlineKeyboardButton('😅 𝗠𝗔𝗜𝗡 𝗖𝗛𝗔𝗡𝗡𝗘𝗟 😊', url='https://t.me/BOSSHINDIOFFCIAL_DRAMAZ'),
+            InlineKeyboardButton('💌 𝗔𝗩𝗢𝗨𝗧 𝗔𝗡𝗗 𝗜𝗡𝗙𝗢 💌', callback_data= 'about')
             ],[
-            InlineKeyboardButton('💌 Aʙᴏᴜᴛ Aɴᴅ Iɴғᴏ 💌', callback_data= 'about')
-            ],[
-            InlineKeyboardButton('❌ Cʟᴏꜱᴇ ❌', callback_data='close_data')
+            InlineKeyboardButton('❌ 𝗖𝗟𝗢𝗦𝗘 ❌', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
